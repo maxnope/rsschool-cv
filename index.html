@@ -5,16 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <title>Evgeniy Smirnov CV</title>
 </head>
 <body>
-    <header>
-    
-    </header>
-    <nav></nav>
-    <aside></aside>
-    <main><h1>Hello!!!</h1></main>
-    <footer></footer>
+    <div class="main-container">
+        <header>
+            <div class="logo"><img src="assets/logo.png" alt="CV Logo"><span>Evgeniy Smirnov</span></div>
+            <ul class="messengers">
+                <li><a href="mailto:maxnope@yandex.ru"><span class="icon-envelope"></span></a></li>
+                <li><a href="https://t.me/evgen_spb"><span class="icon-telegram"></span></a></li>
+            </ul>
+            <nav class="top-menu">
+                <ul class="menu-horisontal">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">What I do</a></li>
+                    <li><a href="#code">Code Examples</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <main>
+            <div class="info-block flex-row" id="about">
+                <div class="info-block-photo">
+                    <img src="assets/photo.jpg" alt="CV Photo" />
+                </div>
+                <div class="info-block-about">
+                    <h1>Evgeniy Smirnov</h1>
+                    <span>Web developer/SEO specialist</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                </div>
+            </div>
+            
+            <div class="info-block" id="skills">
+                <h2>What I do</h2>
+                <div class="info-block-skills">
+                    <div class="skill">
+                        <h3>Programming</h3>
+                        <p>I've programming on PHP at an intermediate level. Created a small CRM system for working needs.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>SEO</h3>
+                        <p>I've strong skills at search engines optimisation and CPC advertising with more than 10 years experience.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>HTML/CSS</h3>
+                        <p>I've a lat of practice at layout mastering via HTML with CSS. Finished about 10 projects or so.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>JS</h3>
+                        <p>For my work I've used jQuery and some simple vanilla JS. And now I decided to improve my skills!</p>
+                    </div>
+                </div>
+
+            </div>           
+            <div class="info-block" id="code">
+                <h2>Code Examples</h2>
+                <code>
+                    <pre>
+//This fnc will remove spaces
+function noSpace(x){
+    return x.replace(/\s+/g, '');
+}</pre>
+                </code>
+
+                
+            </div>
+            <div class="info-block" id="projects">
+                <h2>Projects</h2>
+                
+            </div>
+            <div class="info-block" id="experience">
+                <h2>Experience</h2>
+                
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">©2022 Evgeniy Smirnov</div>
+            <div class="link">
+                <a href="https://github.com/maxnope/" target="_blank"><img src="assets/github.png" width="60px" alt="Github Maxnope"></a></div>
+            <div class="link">
+                <a href="https://rs.school/js-stage0/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" width="100px" alt="Курс JS 0 в RS School" />
+            </div>
+        </footer>
+    </div>
 </body>     
 </html>
