@@ -29,6 +29,13 @@ pre {
     font-family: 'Courier New', Courier, monospace;
     width: fit-content;
 }
+pre::-moz-selection {
+    background: #000;
+    }
+
+pre::selection {
+    background: #000;
+    }
 
 .main-container {
     display: flex;
