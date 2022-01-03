@@ -42,6 +42,9 @@
 .icon-file-php:before {
   content: "\e903";
 }
+.icon-phone:before {
+  content: "\f095";
+}
 .icon-envelope:before {
   content: "\f0e0";
 }
@@ -54,9 +57,13 @@
 .icon-telegram:before {
   content: "\f2c6";
 }
+.icon-phone1:before {
+  content: "\e942";
+}
 .icon-embed2:before {
   content: "\ea80";
 }
 .icon-youtube:before {
   content: "\ea9d";
 }
+
