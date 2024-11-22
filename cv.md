@@ -16,5 +16,17 @@ For my work I've used jQuery and some simple vanilla JS. And now I decided to im
 ### SEO
 I've strong skills at search engines optimization and CPC advertising with more than 10 year's experience.
 
+## Code example
+```
+// Is a number prime?
+
+function isPrime(num) {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++){
+        if(num % i === 0) return false; 
+      }
+    return num > 1;
+}
+```
+
 ## Contacts
 [email](mnope@yandex.ru)
