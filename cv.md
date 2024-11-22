@@ -1,5 +1,5 @@
 # Evgeniy Smirnov
-********* 
+*********
 ### SEO Specialist & FE Developer
 Hello! I'm a junior web developer and a senior SEO specialist. I was born and raised in Saint-Petersburg, Russia. For now, my job is the head of SEO department in IT company. I've decided to update and improve my programming skills at web development and start to learn Java Script at the RS School.
 
@@ -22,7 +22,7 @@ I've strong skills at search engines optimization and CPC advertising with more 
 
 function isPrime(num) {
     for(let i = 2, s = Math.sqrt(num); i <= s; i++){
-        if(num % i === 0) return false; 
+        if(num % i === 0) return false;
       }
     return num > 1;
 }
